@@ -1,6 +1,5 @@
 package main.controller;
 
-import main.model.Usuario;
 import main.repository.UserRepository;
 
 public class LoginController {
