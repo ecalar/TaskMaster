@@ -1,0 +1,17 @@
+# Archivos compilados
+/bin/
+/target/
+
+# Configuraciones de IDE
+/.settings/
+.classpath
+.project
+.idea
+
+# Base de datos SQLite
+*.db
+*.db-journal
+
+# Logs y archivos temporales
+*.log
+*.tmp
