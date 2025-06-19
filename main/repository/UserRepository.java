@@ -1,6 +1,7 @@
 package main.repository;
 
 import java.sql.Connection;
+import org.mindrot.jbcrypt.BCrypt;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -12,6 +13,29 @@ public class UserRepository {
 
     public UserRepository() {
         crearTablaUsuarios();  // Asegura que la tabla exista
+    }
+    
+    public boolean registrarUsuario(String email, String password) {
+        String sql = "INSERT INTO usuarios(email, password) VALUES(?, ?)";
+    
+    try (Connection conn = DriverManager.getConnection(DB_URL);
+    		PreparedStatement pstmt = conn.prepareStatement(sql)){
+    	
+    	pstmt.setString(1, email);
+    	pstmt.setString(2, hashPassword(password));
+    	
+    	pstmt.executeUpdate();
+    	return true;
+    	
+    } catch (SQLException e) {
+    	
+    	System.err.println("Error al registrar usuario: " + e.getMessage());
+    	return false;
+    }
+}
+
+    public String hashPassword(String password) {
+    	return BCrypt.hashpw(password, BCrypt.gensalt());
     }
 
     private void crearTablaUsuarios() {
@@ -38,12 +62,14 @@ public class UserRepository {
             ResultSet rs = pstmt.executeQuery();
             
             if (rs.next()) {
-                String storedPassword = rs.getString("password");
-                return storedPassword.equals(password); // En producción, usa BCrypt
+                String hashGuardado = rs.getString("password");
+                return BCrypt.checkpw(password, hashGuardado); // En producción, usa BCrypt
             }
         } catch (SQLException e) {
             e.printStackTrace();
         }
         return false;
     }
+    
+    
 }
