@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f3a97643-761b-4be3-9266-cf1be09b21e7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jbcrypt-0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/sqlite-jdbc-3.50.1.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/sqlite-jdbc-3.50.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/controller/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/model/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/model/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/repository/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/test/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/test/ClassPathPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/test/TestAuth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/test/TestConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/utils/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/view/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/view/LoginView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/view/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2yjLZ26ySSn9eqTN3xFtT4I30am" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/main/java" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3a97643-761b-4be3-9266-cf1be09b21e7" name="Changes" comment="" />
+      <created>1750343090087</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750343090087</updated>
+    </task>
+    <servers />
+  </component>
+</project>
