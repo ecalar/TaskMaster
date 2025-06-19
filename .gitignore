@@ -1,0 +1,30 @@
+### IntelliJ ###
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+gen/
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+
+### Sistema ###
+.DS_Store
+Thumbs.db
+
+### Archivos de desarrollo ###
+*.log
+*.swp
+*.bak
+
+### SQLite ###
+*.db
+*.db-journal
+
+### Archivos de configuración local ###
+application.properties
+config/development/
